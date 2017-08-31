@@ -12,6 +12,11 @@
 		ADB9FE961F579A9200DC5446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB9FE941F579A9200DC5446 /* Main.storyboard */; };
 		ADB9FE981F579A9200DC5446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB9FE971F579A9200DC5446 /* Assets.xcassets */; };
 		ADB9FE9B1F579A9200DC5446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB9FE991F579A9200DC5446 /* LaunchScreen.storyboard */; };
+		ADB9FEA31F57A25400DC5446 /* test.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADB9FEA21F57A25400DC5446 /* test.m4a */; };
+		ADB9FEA51F57AD7E00DC5446 /* testing_testing.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADB9FEA41F57AD7E00DC5446 /* testing_testing.m4a */; };
+		ADB9FEA71F57ADDC00DC5446 /* portugues.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADB9FEA61F57ADDC00DC5446 /* portugues.m4a */; };
+		ADB9FEA91F57AF3A00DC5446 /* portugues2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADB9FEA81F57AF3A00DC5446 /* portugues2.m4a */; };
+		ADB9FEAB1F57B09B00DC5446 /* portugues3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADB9FEAA1F57B09B00DC5446 /* portugues3.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		ADB9FE971F579A9200DC5446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADB9FE9A1F579A9200DC5446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADB9FE9C1F579A9200DC5446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADB9FEA21F57A25400DC5446 /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4a; sourceTree = "<group>"; };
+		ADB9FEA41F57AD7E00DC5446 /* testing_testing.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = testing_testing.m4a; sourceTree = "<group>"; };
+		ADB9FEA61F57ADDC00DC5446 /* portugues.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = portugues.m4a; sourceTree = "<group>"; };
+		ADB9FEA81F57AF3A00DC5446 /* portugues2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = portugues2.m4a; sourceTree = "<group>"; };
+		ADB9FEAA1F57B09B00DC5446 /* portugues3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = portugues3.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,11 @@
 		ADB9FE8F1F579A9200DC5446 /* textSpeech_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				ADB9FEA41F57AD7E00DC5446 /* testing_testing.m4a */,
+				ADB9FEA81F57AF3A00DC5446 /* portugues2.m4a */,
+				ADB9FEA61F57ADDC00DC5446 /* portugues.m4a */,
+				ADB9FEAA1F57B09B00DC5446 /* portugues3.m4a */,
+				ADB9FEA21F57A25400DC5446 /* test.m4a */,
 				ADB9FE901F579A9200DC5446 /* AppDelegate.swift */,
 				ADB9FE921F579A9200DC5446 /* ViewController.swift */,
 				ADB9FE941F579A9200DC5446 /* Main.storyboard */,
@@ -124,9 +139,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADB9FEA31F57A25400DC5446 /* test.m4a in Resources */,
 				ADB9FE9B1F579A9200DC5446 /* LaunchScreen.storyboard in Resources */,
 				ADB9FE981F579A9200DC5446 /* Assets.xcassets in Resources */,
+				ADB9FEA71F57ADDC00DC5446 /* portugues.m4a in Resources */,
+				ADB9FEA51F57AD7E00DC5446 /* testing_testing.m4a in Resources */,
 				ADB9FE961F579A9200DC5446 /* Main.storyboard in Resources */,
+				ADB9FEA91F57AF3A00DC5446 /* portugues2.m4a in Resources */,
+				ADB9FEAB1F57B09B00DC5446 /* portugues3.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

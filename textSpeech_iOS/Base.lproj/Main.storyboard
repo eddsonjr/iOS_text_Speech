@@ -31,6 +31,9 @@
                                 <state key="normal" title="Play and Transcribe">
                                     <color key="titleColor" red="0.56179851290000005" green="0.23140859599999999" blue="0.53068006040000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="playAndTranscribe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vYH-EP-9NY"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6b3-x5-yNZ">
                                 <rect key="frame" x="16" y="20" width="343" height="21"/>
@@ -62,6 +65,9 @@
                             <constraint firstItem="PQ1-Nb-1kL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ds7-yF-UCX"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textView" destination="cyJ-t1-lRe" id="Fzk-QL-FwL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
